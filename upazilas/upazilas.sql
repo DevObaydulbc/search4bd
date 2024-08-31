@@ -532,9 +532,10 @@ INSERT INTO `upazilas` (`id`, `district_id`, `name`, `bn_name`, `url`) VALUES
 (489, 64, 'Mohongonj', 'মোহনগঞ্জ', 'mohongonj.netrokona.gov.bd'),
 (490, 64, 'Purbadhala', 'পূর্বধলা', 'purbadhala.netrokona.gov.bd'),
 (491, 64, 'Netrokona Sadar', 'নেত্রকোণা সদর', 'netrokonasadar.netrokona.gov.bd'),
-(492, 9, 'Eidgaon', 'ঈদগাঁও', 'null'),
-(493, 39, 'Madhyanagar', 'মধ্যনগর', 'null'),
-(494, 50, 'Dasar', 'ডাসার', 'null');
+(492, 9, 'Eidgaon', 'ঈদগাঁও', 'eidgaon.coxsbazar.gov.bd'),
+(493, 39, 'Madhyanagar', 'মধ্যনগর', 'madhyanagar.sunamganj.gov.bd'),
+(494, 50, 'Dasar', 'ডাসার', 'dasar.madaripur.gov.bd'),
+(495, 38, 'Shaistaganj', 'শায়েস্তাগঞ্জ', 'shayestaganj.habiganj.gov.bd');
 
 
 --

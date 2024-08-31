@@ -3478,21 +3478,28 @@
             <column name="district_id">9</column>
             <column name="name">Eidgaon</column>
             <column name="bn_name">ঈদগাঁও</column>
-            <column name="url">null</column>
+            <column name="url">eidgaon.coxsbazar.gov.bd</column>
         </table>
         <table name="upazilas">
             <column name="id">493</column>
             <column name="district_id">39</column>
             <column name="name">Madhyanagar</column>
             <column name="bn_name">মধ্যনগর</column>
-            <column name="url">null</column>
+            <column name="url">madhyanagar.sunamganj.gov.bd</column>
         </table>
         <table name="upazilas">
             <column name="id">494</column>
             <column name="district_id">50</column>
             <column name="name">Dasarr</column>
             <column name="bn_name">ডাসার</column>
-            <column name="url">null</column>
-        </table>        
+            <column name="url">dasar.madaripur.gov.bd</column>
+        </table>
+        <table name="upazilas">
+            <column name="id">495</column>
+            <column name="district_id">38</column>
+            <column name="name">Shaistaganj</column>
+            <column name="bn_name">শায়েস্তাগঞ্জ</column>
+            <column name="url">shayestaganj.habiganj.gov.bd</column>
+        </table>         
     </database>
 </pma_xml_export>
