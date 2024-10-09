@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 24, 2019 at 09:46 AM
--- Server version: 5.7.26-0ubuntu0.18.04.1
--- PHP Version: 7.2.19-0ubuntu0.18.04.1
+-- Generation Time: Oct 09, 2024 at 04:54 AM
+-- Server version: 8.0.30
+-- PHP Version: 8.3.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -29,18 +28,18 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `unions` (
-  `id` int(4) NOT NULL,
-  `upazilla_id` int(3) NOT NULL,
+  `id` int NOT NULL,
+  `upazila_id` int NOT NULL,
   `name` varchar(25) NOT NULL,
   `bn_name` varchar(25) NOT NULL,
   `url` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 --
 -- Dumping data for table `unions`
 --
 
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (1, 1, 'Subil', 'সুবিল', 'subilup.comilla.gov.bd'),
 (2, 1, 'North Gunaighor', 'উত্তর গুনাইঘর', 'gunaighornorthup.comilla.gov.bd'),
 (3, 1, 'South Gunaighor', 'দক্ষিণ গুনাইঘর', 'gunaighorsouth.comilla.gov.bd'),
@@ -789,7 +788,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (746, 74, 'Paschim Dhemsa', 'পশ্চিম ঢেমশা', 'paschimdhemsaup.chittagong.gov.bd'),
 (747, 74, 'Keochia', 'কেঁওচিয়া', 'keochiaup.chittagong.gov.bd'),
 (748, 74, 'Kaliais', 'কালিয়াইশ', 'kaliaisup.chittagong.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (749, 74, 'Bazalia', 'বাজালিয়া', 'bazaliaup.chittagong.gov.bd'),
 (750, 74, 'Puranagar', 'পুরানগড়', 'puranagarup.chittagong.gov.bd'),
 (751, 74, 'Sadaha', 'ছদাহা', 'sadahaup.chittagong.gov.bd'),
@@ -1546,7 +1545,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (1502, 169, 'Tetulia', 'তেঁতুলিয়া', '2notetuliaup.naogaon.gov.bd'),
 (1503, 169, 'Chhaor', 'ছাওড়', '3nochhaorup.naogaon.gov.bd'),
 (1504, 169, 'Ganguria', 'গাঙ্গুরিয়া', '4noganguriaup.naogaon.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (1505, 169, 'Ghatnagar', 'ঘাটনগর', '5noghatnagarup.naogaon.gov.bd'),
 (1506, 169, 'Moshidpur', 'মশিদপুর', '6nomoshidpurup.naogaon.gov.bd'),
 (1507, 170, 'Sapahar', 'সাপাহার', '1nosapaharup.naogaon.gov.bd'),
@@ -2302,7 +2301,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (2257, 250, 'Durgapasha', 'দুর্গাপাশা', 'durgapashaup.barisal.gov.bd'),
 (2258, 250, 'Faridpur', 'ফরিদপুর', 'faridpurup.barisal.gov.bd'),
 (2259, 250, 'Kabai', 'কবাই', 'kabaiup.barisal.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (2260, 250, 'Nalua', 'নলুয়া', 'naluaup.barisal.gov.bd'),
 (2261, 250, 'Kalashkathi', 'কলসকাঠী', 'kalashkathiup.barisal.gov.bd'),
 (2262, 250, 'Garuria', 'গারুরিয়া', 'garuriaup.barisal.gov.bd'),
@@ -3046,7 +3045,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (3000, 335, 'Lauhati', 'লাউহাটি', 'lauhatiup.tangail.gov.bd'),
 (3001, 335, 'Patharail', 'পাথরাইল', 'patharailup.tangail.gov.bd'),
 (3002, 335, 'Delduar', 'দেলদুয়ার', 'delduarup.tangail.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (3003, 335, 'Fazilhati', 'ফাজিলহাটি', 'fazilhatiup.tangail.gov.bd'),
 (3004, 335, 'Elasin', 'এলাসিন', 'elasinup.tangail.gov.bd'),
 (3005, 335, 'Atia', 'আটিয়া', 'atiaup.tangail.gov.bd'),
@@ -3807,7 +3806,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (3760, 412, 'Askorpur', 'আস্করপুর', 'askorpurup.dinajpur.gov.bd'),
 (3761, 412, 'Kamalpur', 'কমলপুর', 'kamalpurup.dinajpur.gov.bd'),
 (3762, 413, 'Alihat', 'আলীহাট', 'alihatup.dinajpur.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (3763, 413, 'Khattamadobpara', 'খট্টামাধবপাড়া', 'khattamadobparaup.dinajpur.gov.bd'),
 (3764, 413, 'Boalder', 'বোয়ালদার', 'boalderup.dinajpur.gov.bd'),
 (3765, 414, 'Alokjhari', 'আলোকঝাড়ী', 'alokjhariup.dinajpur.gov.bd'),
@@ -4557,7 +4556,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 (4509, 488, 'Borokhapon', 'বড়খাপন', 'borokhaponup.netrokona.gov.bd'),
 (4510, 488, 'Kharnoi', 'খারনৈ', 'kharnoiup.netrokona.gov.bd'),
 (4511, 489, 'Borokashia Birampur', 'বড়কাশিয়া বিরামপুর', 'borokashiabirampurup.netrokona.gov.bd');
-INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
+INSERT INTO `unions` (`id`, `upazila_id`, `name`, `bn_name`, `url`) VALUES
 (4512, 489, 'Borotoli Banihari', 'বড়তলী বানিহারী', 'borotolibanihariup.netrokona.gov.bd'),
 (4513, 489, 'Tetulia', 'তেতুলিয়া', 'tetuliaup.netrokona.gov.bd'),
 (4514, 489, 'Maghan Siadar', 'মাঘান সিয়াদার', 'maghansiadarup.netrokona.gov.bd'),
@@ -4597,7 +4596,7 @@ INSERT INTO `unions` (`id`, `upazilla_id`, `name`, `bn_name`, `url`) VALUES
 --
 ALTER TABLE `unions`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `upazilla_id` (`upazilla_id`);
+  ADD KEY `upazila_id` (`upazila_id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -4607,7 +4606,7 @@ ALTER TABLE `unions`
 -- AUTO_INCREMENT for table `unions`
 --
 ALTER TABLE `unions`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4541;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4541;
 
 --
 -- Constraints for dumped tables
@@ -4617,7 +4616,7 @@ ALTER TABLE `unions`
 -- Constraints for table `unions`
 --
 ALTER TABLE `unions`
-  ADD CONSTRAINT `unions_ibfk_2` FOREIGN KEY (`upazilla_id`) REFERENCES `upazilas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `unions_ibfk_2` FOREIGN KEY (`upazila_id`) REFERENCES `upazilas` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
