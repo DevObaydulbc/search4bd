@@ -1,7 +1,4 @@
-[
-{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"bd_geo_code"},
-{"type":"table","name":"unions","database":"bd_geo_code","data":
+
 [
 {"id":"1","upazilla_id":"1","name":"Subil","bn_name":"সুবিল","url":"subilup.comilla.gov.bd"},
 {"id":"2","upazilla_id":"1","name":"North Gunaighor","bn_name":"উত্তর গুনাইঘর","url":"gunaighornorthup.comilla.gov.bd"},
@@ -4544,5 +4541,5 @@
 {"id":"4539","upazilla_id":"491","name":"Medni","bn_name":"মেদনী","url":"medniup.netrokona.gov.bd"},
 {"id":"4540","upazilla_id":"491","name":"Kaliara Babragati","bn_name":"কালিয়ারা গাবরাগাতি","url":"kaliaragabragatiup.netrokona.gov.bd"}
 ]
-}
-]
+
+
